@@ -1,4 +1,4 @@
-# carrierwaveのcacheについての質問
+# carrierwaveについての質問
 
 ## 状況
 
