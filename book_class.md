@@ -328,7 +328,7 @@ class Book
       puts "#{i + 1}冊目の本を選んでください"
       select_num = gets.chomp.to_i - 1
 
-      redo if select_nums.size != 0 && select_nums.include?(select_num) || select_num > roop_times
+      redo if select_nums.include?(select_num) || select_num > roop_times
 
       select_nums << select_num
 
